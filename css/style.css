@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 944px;
+  position: relative;
+}
+
+.string{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  position: relative;
+}
+
+.string:hover{
+  cursor: pointer;
+}
+
+.coordinates{
+  position: relative;
+}
+
+.cords{
+  border-left: 1px dashed black;
+  border-bottom: 1px dashed black;
+  border-spacing: 0px;
+}
+
+ td{
+  border: 1px dashed black;
+  width: 80px;
+  height: 80px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.x{
+  border-top: 2px solid black;
+}
+
+.y{
+  border-right: 2px solid black;
+}
+
+.xy{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: sans-serif;
+  font-size: 24pt;
+}
+
+.redPoint{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  bottom: 162px;
+  left: -4.55px;
+}
+
+.triangle{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 845px;
+  left: 0;
+}
+
+.circle{
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 885px;
+  left: 20px;
+}
+
+.simple{
+  background-color: blue;
+  height: 100px;
+  width: 160px;
+  position: absolute;
+}
+
+.circle_for_pc1{
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.circle_for_pc2{
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+}
